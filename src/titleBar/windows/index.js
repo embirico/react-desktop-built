@@ -120,7 +120,7 @@ var TitleBar = (_dec = (0, _windows2.default)(function (nextProps, prevProps, ba
 
       return _react2.default.createElement(
         'div',
-        _extends({ ref: 'element', style: componentStyle }, props),
+        _extends({ style: componentStyle }, props),
         titleComponent,
         controlsComponent,
         children
