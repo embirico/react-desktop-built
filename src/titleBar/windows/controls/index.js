@@ -61,13 +61,12 @@ var Controls = (_temp = _class = function (_Component) {
       return _react2.default.createElement(
         'div',
         { style: styles.controls },
-        _react2.default.createElement(_Minimize2.default, { onClick: this.props.onMinimizeClick, ref: 'minimize' }),
+        _react2.default.createElement(_Minimize2.default, { onClick: this.props.onMinimizeClick }),
         _react2.default.createElement(_Maximize2.default, {
           onMaximizeClick: this.props.onMaximizeClick,
           onRestoreDownClick: this.props.onRestoreDownClick,
-          ref: 'maximize'
         }),
-        _react2.default.createElement(_Close2.default, { onClick: this.props.onCloseClick, ref: 'close' })
+        _react2.default.createElement(_Close2.default, { onClick: this.props.onCloseClick })
       );
     }
   }]);
